@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  background-color: #c5aa6a;
+}
+
+nav ul li {
+  padding: 0 12px;
+  color: white;
+}
+
+.brand img {
+  width: 35px;
+}
+
+.container {
+  min-height: 100vh;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  margin: 22px auto;
+  border-radius: 10px;
+  padding: 40px;
+  width: 80%;
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 72px;
+  background-color: #c5aa6a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 74px;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  color: black;
+  margin: 12px 0;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.songItem img {
+  width: 43px;
+  margin: 0 15px;
+  border-radius: 35px;
+}
+
+.timeStamp {
+  margin: 0 15px;
+}
+
+.timeStamp i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 9.6vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
